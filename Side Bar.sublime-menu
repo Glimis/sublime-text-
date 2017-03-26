@@ -1,20 +1,40 @@
 [  
     {  
-        "caption": "New File (SublimeTmpl)",  
+        "caption": "友云彩",  
         "children":  
         [  
             {  
-                "caption": "Lua",  
+                "caption": "业务",  
+                "command": "test",  
+                "args": {  
+                    "type": "sublime_tmpl"  
+                }  
+            },{  
+                "caption": "视图(ejs)",  
                 "command": "sublime_tmpl",  
                 "args": {  
-                    "type": "lua"  
+                    "type": "ejs"  
+                }  
+            },
+            {  
+                "caption": "视图模型(ViewModel)",  
+                "command": "sublime_tmpl",  
+                "args": {  
+                    "type": "ViewModel"  
+                }  
+            }, 
+            {  
+                "caption": "组建(Component)",  
+                "command": "sublime_tmpl",  
+                "args": {  
+                    "type": "Component"  
                 }  
             },  
             {  
-                "caption": "HTML",  
+                "caption": "模型(Model)",  
                 "command": "sublime_tmpl",  
                 "args": {  
-                    "type": "html"  
+                    "type": "Model"  
                 }  
             }  
         ]  
